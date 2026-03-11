@@ -1,6 +1,7 @@
 "use client"
 
-import { Leaf, Palette, Type, Layers, Grid3X3, Sparkles } from "lucide-react"
+import Image from "next/image"
+import { Palette, Type, Layers, Grid3X3, Sparkles } from "lucide-react"
 
 const features = [
   {
@@ -29,10 +30,14 @@ export function IntroductionSection() {
   return (
     <section id="introduction" className="scroll-mt-8">
       <div className="mb-16">
-        <div className="flex items-center gap-3 mb-6">
-          <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
-            <Leaf className="w-5 h-5 text-primary" />
-          </div>
+        <div className="flex items-center gap-4 mb-6">
+          <Image
+            src="/images/green-life-logo.png"
+            alt="Green Life"
+            width={48}
+            height={48}
+            className="w-12 h-12 object-contain"
+          />
           <span className="text-sm font-medium text-primary tracking-wide uppercase">Green Life Design System</span>
         </div>
         <h1 className="text-4xl md:text-6xl font-light text-foreground mb-6 leading-tight">

@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { cn } from "@/lib/utils"
 
 interface NavItem {
@@ -42,9 +43,13 @@ export function SidebarNav({
   return (
     <aside className="hidden lg:flex flex-col w-64 border-r border-border bg-sidebar min-h-screen p-6">
       <div className="flex items-center gap-3 mb-10">
-        <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center">
-          <span className="text-primary font-medium text-xs">GL</span>
-        </div>
+        <Image
+          src="/images/green-life-logo.png"
+          alt="Green Life"
+          width={40}
+          height={40}
+          className="w-10 h-10 object-contain"
+        />
         <span className="font-medium text-foreground">Green Life</span>
       </div>
 
