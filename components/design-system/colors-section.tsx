@@ -18,7 +18,8 @@ const semanticColors: ColorToken[] = [
   { name: "Secondary", variable: "--secondary", description: "Secondary surfaces" },
   { name: "Muted", variable: "--muted", description: "Muted backgrounds" },
   { name: "Muted Foreground", variable: "--muted-foreground", description: "Muted text" },
-  { name: "Accent", variable: "--accent", description: "Accent highlights" },
+  { name: "Accent", variable: "--accent", description: "Gold spark highlights" },
+  { name: "Spark", variable: "--spark", description: "Igniter gold accent" },
   { name: "Border", variable: "--border", description: "Border color" },
   { name: "Destructive", variable: "--destructive", description: "Error states" },
 ]
