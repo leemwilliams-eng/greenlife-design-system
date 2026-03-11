@@ -80,6 +80,36 @@ export function ColorsSection() {
         </div>
 
         <div>
+          <h3 className="text-lg font-medium text-foreground mb-6">Brand Palette</h3>
+          <div className="flex gap-6 mb-8">
+            <div className="flex flex-col items-center">
+              <div
+                className="w-20 h-20 rounded-full border-2 border-border"
+                style={{ backgroundColor: 'var(--primary)' }}
+              />
+              <span className="text-sm text-foreground mt-3">Primary</span>
+              <span className="text-xs text-muted-foreground">Emerald</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <div
+                className="w-20 h-20 rounded-full border-2 border-border"
+                style={{ backgroundColor: 'var(--spark)' }}
+              />
+              <span className="text-sm text-foreground mt-3">Spark</span>
+              <span className="text-xs text-muted-foreground">Gold</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <div
+                className="w-20 h-20 rounded-full border-2 border-border"
+                style={{ backgroundColor: 'var(--background)' }}
+              />
+              <span className="text-sm text-foreground mt-3">Background</span>
+              <span className="text-xs text-muted-foreground">Forest</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
           <h3 className="text-lg font-medium text-foreground mb-6">Chart Colors</h3>
           <div className="flex gap-4">
             {chartColors.map((color) => (

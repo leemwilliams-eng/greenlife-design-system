@@ -69,13 +69,13 @@ export function IntroductionSection() {
         ))}
       </div>
 
-      <div className="mt-12 p-6 bg-card border border-accent/30 rounded-lg">
+      <div className="mt-12 p-6 bg-card border rounded-lg" style={{ borderColor: 'var(--spark)', borderWidth: '1px' }}>
         <div className="flex items-center gap-2 mb-3">
-          <Sparkles className="w-4 h-4 text-accent" />
-          <span className="text-sm font-medium text-accent">Igniters</span>
+          <Sparkles className="w-4 h-4" style={{ color: 'var(--spark)' }} />
+          <span className="text-sm font-medium" style={{ color: 'var(--spark)' }}>Igniters</span>
         </div>
         <p className="text-foreground leading-relaxed">
-          Every picture throws a <span className="text-accent font-medium">spark</span>. Every spark can start a <span className="text-accent font-medium">fire</span>. This system is built to help you see clearly, create intentionally, and build without pretense.
+          Every picture throws a <span className="font-medium" style={{ color: 'var(--spark)' }}>spark</span>. Every spark can start a <span className="font-medium" style={{ color: 'var(--spark)' }}>fire</span>. This system is built to help you see clearly, create intentionally, and build without pretense.
         </p>
       </div>
     </section>
