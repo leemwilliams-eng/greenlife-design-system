@@ -26,7 +26,7 @@ export function TypographySection() {
       <div className="mb-8">
         <h2 className="text-2xl font-light text-foreground mb-2">Typography</h2>
         <p className="text-muted-foreground max-w-2xl">
-          Clean, purposeful typography. Light weights for impact, balanced hierarchy for clarity. Built on Geist.
+          Clean, purposeful typography. Light weights for impact, balanced hierarchy for clarity. Built on Plus Jakarta Sans.
         </p>
       </div>
 
@@ -34,12 +34,12 @@ export function TypographySection() {
         <div className="bg-card border border-border rounded-lg p-8">
           <div className="flex flex-col md:flex-row gap-12 items-center justify-center">
             <div className="text-center">
-              <p className="text-6xl font-sans mb-4">Geist Sans</p>
+              <p className="text-6xl font-sans mb-4">Plus Jakarta Sans SemiBold</p>
               <p className="text-sm text-muted-foreground">Primary typeface</p>
             </div>
             <div className="text-center">
-              <p className="text-6xl font-mono mb-4">Geist Mono</p>
-              <p className="text-sm text-muted-foreground">Monospace typeface</p>
+              <p className="text-6xl font-mono mb-4">Plus Jakarta Sans Light</p>
+              <p className="text-sm text-muted-foreground">Body typeface</p>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ export function TypographySection() {
           <h3 className="text-lg font-medium text-foreground mb-4">Usage</h3>
           <pre className="bg-secondary rounded-md p-4 overflow-x-auto">
             <code className="text-sm font-mono text-foreground">
-{`/* Tailwind CSS */
+              {`/* Tailwind CSS */
 <h1 className="text-4xl font-semibold leading-tight">Heading</h1>
 <p className="text-base font-normal leading-relaxed">Body text</p>
 <code className="font-mono text-sm">Code snippet</code>
