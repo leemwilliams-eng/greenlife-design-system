@@ -12,6 +12,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Plus Jakarta Sans Light';
+  src: url('/fonts/PlusJakartaSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --background: oklch(0.18 0.04 155);
   --foreground: oklch(0.96 0.01 155);
@@ -85,7 +93,7 @@
 
 @theme inline {
   --font-sans: 'Plus Jakarta Sans', 'Geist', 'Geist Fallback', system-ui, sans-serif;
-  --font-mono: 'Geist Mono', 'Geist Mono Fallback';
+  --font-mono: 'Plus Jakarta Sans Light', 'Geist Mono', 'Geist Mono Fallback';
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
