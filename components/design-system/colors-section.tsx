@@ -24,11 +24,11 @@ const semanticColors: ColorToken[] = [
 ]
 
 const chartColors = [
-  { name: "Chart 1", variable: "--chart-1", hue: "Blue" },
+  { name: "Chart 1", variable: "--chart-1", hue: "Emerald" },
   { name: "Chart 2", variable: "--chart-2", hue: "Teal" },
-  { name: "Chart 3", variable: "--chart-3", hue: "Yellow" },
-  { name: "Chart 4", variable: "--chart-4", hue: "Purple" },
-  { name: "Chart 5", variable: "--chart-5", hue: "Orange" },
+  { name: "Chart 3", variable: "--chart-3", hue: "Lime" },
+  { name: "Chart 4", variable: "--chart-4", hue: "Cyan" },
+  { name: "Chart 5", variable: "--chart-5", hue: "Mint" },
 ]
 
 function ColorSwatch({ variable, name, description }: ColorToken) {
@@ -62,9 +62,9 @@ export function ColorsSection() {
   return (
     <section id="colors" className="scroll-mt-8">
       <div className="mb-8">
-        <h2 className="text-2xl font-semibold text-foreground mb-2">Colors & Tokens</h2>
+        <h2 className="text-2xl font-light text-foreground mb-2">Colors & Tokens</h2>
         <p className="text-muted-foreground max-w-2xl">
-          A high-contrast, accessible color system designed for dark interfaces. Click any swatch to copy its CSS variable.
+          An emerald-infused palette rooted in nature. Dark backgrounds with intentional green accents. Click any swatch to copy its CSS variable.
         </p>
       </div>
 

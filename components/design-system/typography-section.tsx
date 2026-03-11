@@ -1,15 +1,15 @@
 "use client"
 
 const typeScale = [
-  { name: "Display", size: "text-5xl", weight: "font-bold", leading: "leading-tight", example: "Display Text" },
-  { name: "Heading 1", size: "text-4xl", weight: "font-semibold", leading: "leading-tight", example: "Heading 1" },
-  { name: "Heading 2", size: "text-3xl", weight: "font-semibold", leading: "leading-snug", example: "Heading 2" },
-  { name: "Heading 3", size: "text-2xl", weight: "font-semibold", leading: "leading-snug", example: "Heading 3" },
-  { name: "Heading 4", size: "text-xl", weight: "font-medium", leading: "leading-normal", example: "Heading 4" },
-  { name: "Body Large", size: "text-lg", weight: "font-normal", leading: "leading-relaxed", example: "Body text large" },
-  { name: "Body", size: "text-base", weight: "font-normal", leading: "leading-relaxed", example: "Body text regular" },
-  { name: "Body Small", size: "text-sm", weight: "font-normal", leading: "leading-relaxed", example: "Body text small" },
-  { name: "Caption", size: "text-xs", weight: "font-normal", leading: "leading-normal", example: "Caption text" },
+  { name: "Display", size: "text-5xl", weight: "font-light", leading: "leading-tight", example: "Be present" },
+  { name: "Heading 1", size: "text-4xl", weight: "font-light", leading: "leading-tight", example: "Have knowledge" },
+  { name: "Heading 2", size: "text-3xl", weight: "font-normal", leading: "leading-snug", example: "Pay attention" },
+  { name: "Heading 3", size: "text-2xl", weight: "font-normal", leading: "leading-snug", example: "Every spark matters" },
+  { name: "Heading 4", size: "text-xl", weight: "font-medium", leading: "leading-normal", example: "Start the fire" },
+  { name: "Body Large", size: "text-lg", weight: "font-normal", leading: "leading-relaxed", example: "Every choice is deliberate" },
+  { name: "Body", size: "text-base", weight: "font-normal", leading: "leading-relaxed", example: "Intentional design choices" },
+  { name: "Body Small", size: "text-sm", weight: "font-normal", leading: "leading-relaxed", example: "Small but purposeful" },
+  { name: "Caption", size: "text-xs", weight: "font-medium", leading: "leading-normal", example: "Sparks thrown" },
 ]
 
 const fontWeights = [
@@ -24,9 +24,9 @@ export function TypographySection() {
   return (
     <section id="typography" className="scroll-mt-8">
       <div className="mb-8">
-        <h2 className="text-2xl font-semibold text-foreground mb-2">Typography</h2>
+        <h2 className="text-2xl font-light text-foreground mb-2">Typography</h2>
         <p className="text-muted-foreground max-w-2xl">
-          Built on Geist Sans and Geist Mono, optimized for developer interfaces and technical documentation.
+          Clean, purposeful typography. Light weights for impact, balanced hierarchy for clarity. Built on Geist.
         </p>
       </div>
 

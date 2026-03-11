@@ -27,9 +27,9 @@ export function LayoutSection() {
   return (
     <section id="layout" className="scroll-mt-8">
       <div className="mb-8">
-        <h2 className="text-2xl font-semibold text-foreground mb-2">Layout & Grid</h2>
+        <h2 className="text-2xl font-light text-foreground mb-2">Layout & Grid</h2>
         <p className="text-muted-foreground max-w-2xl">
-          Consistent spacing, responsive breakpoints, and grid systems for building layouts.
+          Structure with intention. Consistent spacing, responsive breakpoints, and grids that breathe.
         </p>
       </div>
 

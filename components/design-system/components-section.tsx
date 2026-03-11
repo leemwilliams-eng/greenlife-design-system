@@ -16,9 +16,9 @@ export function ComponentsSection() {
   return (
     <section id="components" className="scroll-mt-8">
       <div className="mb-8">
-        <h2 className="text-2xl font-semibold text-foreground mb-2">Components</h2>
+        <h2 className="text-2xl font-light text-foreground mb-2">Components</h2>
         <p className="text-muted-foreground max-w-2xl">
-          Building blocks for React applications. All components follow accessibility best practices and support dark themes.
+          Minimal, functional building blocks. Every component serves a purpose. Accessible by default.
         </p>
       </div>
 

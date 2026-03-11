@@ -42,10 +42,10 @@ export function SidebarNav({
   return (
     <aside className="hidden lg:flex flex-col w-64 border-r border-border bg-sidebar min-h-screen p-6">
       <div className="flex items-center gap-3 mb-10">
-        <div className="w-8 h-8 rounded-md bg-foreground flex items-center justify-center">
-          <span className="text-background font-bold text-sm">DS</span>
+        <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center">
+          <span className="text-primary font-medium text-xs">GL</span>
         </div>
-        <span className="font-semibold text-foreground">Design System</span>
+        <span className="font-medium text-foreground">Green Life</span>
       </div>
 
       <nav className="flex-1 space-y-8">
